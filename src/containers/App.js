@@ -32,7 +32,7 @@ class App extends Component {
         <li><Link to={'/'}>Hide</Link></li>
         </ul>
         <hr />
-        <Route exact path={'/Add'} component={Add}><Add /></Route> 
+        <Route exact path={'/Add'} component={Add} /> 
         <Route exact path={'/App'} component={App} />   
           
         <ScrollBar>
